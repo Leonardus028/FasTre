@@ -7,8 +7,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.fastre.R
 import com.example.fastre.core.data.source.Resource
 import com.example.fastre.core.ui.NewsAdapter
 import com.example.fastre.core.ui.ViewModelFactory
@@ -53,6 +55,7 @@ class NewsFragment : Fragment() {
                         is Resource.Error -> {
                             Log.d("resource", "observe news: error" )
                             binding.progressBar.visibility = View.GONE
+                            Toast.makeText(context, getString(R.string.error), Toast.LENGTH_LONG).show()
                         }
                     }
                 }

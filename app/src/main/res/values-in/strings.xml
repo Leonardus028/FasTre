@@ -57,7 +57,8 @@
     <string name="this_is_queue_number">ini adalah nomor antrian sekarang</string>
     <string name="queue_s_number_right_now">Nomor antrian saat ini</string>
     <string name="this_is_your_queue_number">ini adalah nomor antrian milik anda</string>
-    <string name="your_queue_number">Tekan disini untuk mendapatkan nomor antrian</string>
+    <string name="your_queue_number">Tekan disini untuk mendapatkan/melihat nomor antrianmu</string>
+    <string name="your_queue_number1">Tekan disini untuk mendapatkan nomor antrianmu</string>
     <string name="your_queue_number2">Nomor antrianmu</string>
     <string name="check_the_estimated_waiting_time">Estimasi waktu tunggu: </string>
     <string name="doctor_s_name">Nama dokter</string>
@@ -85,6 +86,7 @@
     <string name="please_wait">Mohon tunggu</string>
     <string name="n_minute">n </string>
     <string name="minute">menit</string>
+    <string name="no_poly">Poliklinik tidak memiliki jadwal praktek hari ini.</string>
     <string name="this_is_icon_id">ini adalah simbol id</string>
     <string name="this_is_icon_poly">ini adalah simbol poliklinik</string>
     <string name="this_is_icon_number">ini adalah simbol nomor urut anda</string>
@@ -92,4 +94,12 @@
     <string name="queue_number">Nomor antrian: </string>
     <string name="swipe_poly">Swipe ke kiri untuk melihat poli lainnya.</string>
     <string name="title_schedule">Jadwal Praktek</string>
+    <string name="text_date">Tanggal:</string>
+    <string name="text_result">Data Antrian</string>
+    <string name="this_is_a_picture">this is a picture</string>
+    <string name="title_show_dialog_queue">Ambil Nomor Antrian</string>
+    <string name="ask_show_dialog_queue">Apakah anda ingin mengambil nomor antrian?</string>
+    <string name="fastre_number">08xxxxxxxxxx</string>
+    <string name="error">Data gagal dimuat, periksa kembali koneksi internet anda.</string>
+    <string name="after_7_am">Anda hanya dapat mengambil nomor antrian setelah jam 7 pagi.</string>
 </resources>

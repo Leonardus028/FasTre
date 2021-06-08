@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FasTre"
         android:usesCleartextTraffic="true">
+        <activity android:name=".ui.queue.QueueActivity"></activity>
         <activity android:name=".ui.authentication.ForgotPasswordActivity" />
         <activity android:name=".ui.news.BookmarkedNewsActivity" />
         <activity android:name=".ui.setting.AboutUsActivity" />

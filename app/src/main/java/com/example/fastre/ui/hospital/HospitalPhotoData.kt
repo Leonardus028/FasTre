@@ -8,15 +8,6 @@ object HospitalPhotoData {
     var photo2 = "https://firebasestorage.googleapis.com/v0/b/fastre.appspot.com/o/img%2Fhospital_img%2Frs-sari-asih-2.jpg?alt=media&token=12c1b132-b88b-454f-b35a-80a26b8d604a"
     var photo3 = "https://firebasestorage.googleapis.com/v0/b/fastre.appspot.com/o/img%2Fhospital_img%2Frs-sari-asih-3.jpg?alt=media&token=2b16820b-d15d-4795-82a7-7e6f4cb5e3a0"
 
-    /**fun getData(data: List<Hospital>?){
-        if (data != null) {
-           val firstHospitalData = data[0]
-            photo1 = firstHospitalData.hospitalPhoto1
-            photo2 = firstHospitalData.hospitalPhoto2
-            photo3 = firstHospitalData.hospitalPhoto3
-        }
-    }**/
-
     private val photo = arrayOf(photo1, photo2, photo3)
 
     val listHospitalPhoto: ArrayList<HospitalPhoto>

@@ -39,6 +39,16 @@
             app:layout_constraintTop_toBottomOf="@id/tv_hospitalName"
             tools:listitem="@layout/item_poly"/>
 
+        <ProgressBar
+            android:id="@+id/progress_bar_poli"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="@id/rv_poly"
+            app:layout_constraintEnd_toEndOf="@id/rv_poly"
+            app:layout_constraintTop_toTopOf="@id/rv_poly"
+            app:layout_constraintBottom_toBottomOf="@id/rv_poly"/>
+
         <TextView
             android:id="@+id/text_next_queue"
             android:layout_width="0dp"
@@ -166,6 +176,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_schedule"
             tools:listitem="@layout/item_schedule"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar_schedule"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="@id/rv_schedule"
+            app:layout_constraintEnd_toEndOf="@id/rv_schedule"
+            app:layout_constraintTop_toTopOf="@id/rv_schedule"
+            app:layout_constraintBottom_toBottomOf="@id/rv_schedule"/>
 
         <TextView
             android:id="@+id/text_hospital_preview"

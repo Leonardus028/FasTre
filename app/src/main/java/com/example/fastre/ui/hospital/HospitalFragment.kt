@@ -7,9 +7,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.fastre.R
 import com.example.fastre.core.data.source.Resource
 import com.example.fastre.core.domain.model.Hospital
 import com.example.fastre.core.domain.model.HospitalPhoto
@@ -52,16 +54,14 @@ class HospitalFragment : Fragment() {
                     when (hospital) {
                         is Resource.Loading -> {
                             Log.d("resource", "observe hospital: loading")
-                            //binding.progressBar.visibility = View.VISIBLE
                         }
                         is Resource.Success -> {
-                            Log.d("resource", "observe hospital: succes")
-                            //binding.progressBar.visibility = View.GONE
+                            Log.d("resource", "observe hospital: success")
                             showInformation(hospital.data)
                         }
                         is Resource.Error -> {
-                            Log.d("resource", "observe poly: error")
-                            //binding.progressBar.visibility = View.GONE
+                            Log.d("resource", "observe hospital: error")
+                            Toast.makeText(context, getString(R.string.error), Toast.LENGTH_LONG).show()
                         }
                     }
                 }
@@ -118,16 +118,17 @@ class HospitalFragment : Fragment() {
                 when (poly) {
                     is Resource.Loading -> {
                         Log.d("resource", "observe poly: loading")
-                        //binding.progressBar.visibility = View.VISIBLE
+                        binding.progressBarPoli.visibility = View.VISIBLE
                     }
                     is Resource.Success -> {
-                        Log.d("resource", "observe poly: succes")
-                        //binding.progressBar.visibility = View.GONE
+                        Log.d("resource", "observe poly: success")
+                        binding.progressBarPoli.visibility = View.GONE
                         polyAdapter.setData(poly.data)
                     }
                     is Resource.Error -> {
                         Log.d("resource", "observe poly: error")
-                        //binding.progressBar.visibility = View.GONE
+                        binding.progressBarPoli.visibility = View.GONE
+                        Toast.makeText(context, getString(R.string.error), Toast.LENGTH_LONG).show()
                     }
                 }
             }
@@ -146,16 +147,16 @@ class HospitalFragment : Fragment() {
                 when (schedule) {
                     is Resource.Loading -> {
                         Log.d("resource", "observe schedule: loading")
-                        //binding.progressBar.visibility = View.VISIBLE
+                        binding.progressBarSchedule.visibility = View.VISIBLE
                     }
                     is Resource.Success -> {
-                        Log.d("resource", "observe schedule: succes")
-                        //binding.progressBar.visibility = View.GONE
+                        Log.d("resource", "observe schedule: success")
+                        binding.progressBarSchedule.visibility = View.GONE
                         scheduleAdapter.setData(schedule.data)
                     }
                     is Resource.Error -> {
                         Log.d("resource", "observe schedule: error")
-                        //binding.progressBar.visibility = View.GONE
+                        binding.progressBarSchedule.visibility = View.GONE
                     }
                 }
             }

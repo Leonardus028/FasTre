@@ -56,7 +56,8 @@
     <string name="this_is_queue_number">this is queue number</string>
     <string name="queue_s_number_right_now">Queue\'s number right now</string>
     <string name="this_is_your_queue_number">this is your queue number</string>
-    <string name="your_queue_number">Click here to get the queue number</string>
+    <string name="your_queue_number">Click here to get or see your queue number</string>
+    <string name="your_queue_number1">Click here to get your queue number</string>
     <string name="your_queue_number2">Your queue number</string>
     <string name="check_the_estimated_waiting_time">Estimated waiting time: </string>
     <string name="doctor_s_name">Doctor\'s name</string>
@@ -84,6 +85,7 @@
     <string name="please_wait">Please wait</string>
     <string name="n_minute">n </string>
     <string name="minute">minute</string>
+    <string name="no_poly">This poly doesn\'t have a scheduled today</string>
     <string name="this_is_icon_id">this is icon id</string>
     <string name="this_is_icon_poly">this is icon poly</string>
     <string name="this_is_icon_number">this is icon number</string>
@@ -91,4 +93,12 @@
     <string name="queue_number">Queue number:</string>
     <string name="swipe_poly">Swipe left to see the other polyclinics.</string>
     <string name="title_schedule">Schedule</string>
+    <string name="text_date">Date:</string>
+    <string name="text_result">Result</string>
+    <string name="this_is_a_picture">this is a picture</string>
+    <string name="title_show_dialog_queue">Get Queue Number</string>
+    <string name="ask_show_dialog_queue">Do you want to take a queue number?</string>
+    <string name="fastre_number">08xxxxxxxxxx</string>
+    <string name="error">Please check your internet connection or try again later</string>
+    <string name="after_7_am">You can only get the queue number after 7 AM.</string>
 </resources>
