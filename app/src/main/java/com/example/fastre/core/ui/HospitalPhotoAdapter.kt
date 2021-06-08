@@ -31,10 +31,6 @@ class HospitalPhotoAdapter(private val listData: ArrayList<HospitalPhoto>): Recy
                 Glide.with(itemView.context)
                     .load(data.photo)
                     .into(ivHospitalPhoto)
-
-                ivHospitalPhoto.setOnClickListener {
-                    //koding untuk pop up gambar
-                }
             }
         }
     }

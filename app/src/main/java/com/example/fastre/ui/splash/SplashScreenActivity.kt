@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import com.example.fastre.R
 import com.example.fastre.ui.authentication.AuthenticationActivity
 import com.example.fastre.ui.main.MainActivity
@@ -25,14 +26,14 @@ class SplashScreenActivity : AppCompatActivity() {
     private fun loginAnything() {
         auth = FirebaseAuth.getInstance()
         if (auth.currentUser != null) {
-            Handler().postDelayed({
+            Handler(Looper.getMainLooper()).postDelayed({
                 startActivity(Intent(this@SplashScreenActivity, MainActivity::class.java))
                 startActivity(intent)
                 finish()}, 3000)
 
         }
         else {
-            Handler().postDelayed({
+            Handler(Looper.getMainLooper()).postDelayed({
                 val intent = Intent(this@SplashScreenActivity, AuthenticationActivity::class.java)
                 startActivity(intent)
                 finish()

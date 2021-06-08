@@ -69,7 +69,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
-        android:text="087934482945"
+        android:text="@string/fastre_number"
         android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintTop_toTopOf="@id/logo_phone"
