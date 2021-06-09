@@ -6,7 +6,7 @@
     <string name="e_mail">Email</string>
     <string name="age">Age</string>
     <string name="blood_type">Blood Type</string>
-    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="tag">Let\'s join us and \nget a simple way to queue</string>
     <string name="swipe_right_for_login">Swipe Right for Login</string>
     <string name="register">Register</string>
     <string name="re_type_password">Re-type Password</string>
@@ -100,5 +100,5 @@
     <string name="ask_show_dialog_queue">Do you want to take a queue number?</string>
     <string name="fastre_number">08xxxxxxxxxx</string>
     <string name="error">Please check your internet connection or try again later</string>
-    <string name="after_7_am">You can only get the queue number after 7 AM.</string>
+    <string name="after_7">You can only get the queue number from 7 AM until 7 PM.</string>
 </resources>

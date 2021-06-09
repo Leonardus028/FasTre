@@ -24,9 +24,9 @@
     <string name="email_logo">ini adalah email</string>
     <string name="phone_logo">ini adalah nomor telepon</string>
     <string name="text_information">Informasi</string>
-    <string name="text_call_hospital">Telpon RS</string>
-    <string name="text_location">Lokasi RS</string>
-    <string name="text_whatsapp">Whatsapp RS</string>
+    <string name="text_call_hospital">Telepon Rumah Sakit</string>
+    <string name="text_location">Lokasi Rumah Sakit</string>
+    <string name="text_whatsapp">Whatsapp Rumah Sakit</string>
     <string name="text_hospital_s_preview">Tampilan Rumah Sakit</string>
     <string name="text_news">INFORMASI</string>
     <string name="text_bookmarked_news">Informasi yang Disimpan</string>
@@ -51,7 +51,7 @@
     <string name="you_don_t_have_any_bookmarked_news">Anda belum memiliki informasi yang disimpan.</string>
     <string name="reset_password">Ubah kata sandi</string>
     <string name="forgot_pw">Lupa kata sandi</string>
-    <string name="text_medical_records">Medical Records</string>
+    <string name="text_medical_records">Rekam Medis</string>
     <string name="poli_s_name">NAMA POLI</string>
     <string name="this_is_hospital_preview_poster">ini adalah tampilan rumah sakit</string>
     <string name="this_is_queue_number">ini adalah nomor antrian sekarang</string>
@@ -101,5 +101,5 @@
     <string name="ask_show_dialog_queue">Apakah anda ingin mengambil nomor antrian?</string>
     <string name="fastre_number">08xxxxxxxxxx</string>
     <string name="error">Data gagal dimuat, periksa kembali koneksi internet anda.</string>
-    <string name="after_7_am">Anda hanya dapat mengambil nomor antrian setelah jam 7 pagi.</string>
+    <string name="after_7">Anda hanya dapat mengambil nomor antrian dari jam 7 pagi - 7 malam.</string>
 </resources>
